@@ -1,3 +1,21 @@
+:global a:link {
+  text-decoration: none;
+}
+
+:global a:visited {
+  text-decoration: none;
+}
+
 :global a:hover {
   text-decoration: none;
+}
+
+:global a:active {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 0;
 }
