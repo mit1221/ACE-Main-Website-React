@@ -1,16 +1,17 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Header from './Components/Header/Header';
-import {Grid, Row, Col} from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
+import Sidebar from './Components/Sidebar/Sidebar';
 import './App.css';
 
 class App extends Component {
   render() {
-    return <Grid fluid="fluid">
+    return <Grid fluid>
       <Row>
         <Header/>
       </Row>
       <Row>
-        <p>Each page</p>
+        <Sidebar></Sidebar>
         <p>Put links here</p>
       </Row>
       <Row>

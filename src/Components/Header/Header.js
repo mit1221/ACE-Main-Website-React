@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Header.css';
+import './Header.css';
 import Logo from '../Logo/Logo';
 import HeaderNavItems from './HeaderNavItems/HeaderNavItems';
 

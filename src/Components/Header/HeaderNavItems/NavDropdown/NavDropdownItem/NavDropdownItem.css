@@ -1,0 +1,22 @@
+.dropdownItem {
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  transition: 0.2s;
+}
+
+.dropdownItem:not(.active) {
+  color: #002A5C;
+}
+
+.dropdownItem:hover {
+  color: white;
+  background-color: #264F7F;
+}
+
+.active {
+  color: white;
+  background-color: #001E42;
+  pointer-events: none;
+  font-weight: bold;
+}

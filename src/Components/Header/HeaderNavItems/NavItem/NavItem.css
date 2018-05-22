@@ -1,0 +1,19 @@
+.navItem a {
+  display: block;
+  color: white;
+  padding: 30px 15px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navItem a:hover:not(.active) {
+  background-color: #264F7F;
+}
+
+/* For the active tab on the navigation bar */
+
+.active {
+  background-color: #001E42;
+  pointer-events: none;
+  font-weight: bold;
+}

@@ -1,30 +1,8 @@
-ul {
+.headerNavItems {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
-}
-
-li a {
-  display: block;
-  color: white !important;
-  text-align: center;
-  padding: 30px 15px;
-  text-decoration: none;
-  border-bottom: 0px !important;
-  transition: 0.2s;
-}
-
-li a:hover:not(.active) {
-    background-color: #264F7F;
-    color: white !important;
-}
-
-/* For the active tab on the navigation bar */
-.active {
-  background-color: #001E42;
-  pointer-events: none;
-  font-weight: bold;
 }
