@@ -14,8 +14,8 @@ const contactCard = props => (<div className={classes.contactInfoCard}>
   </HLink>
 
   <p className={classes.subtitle}><img src={clockIcon} alt="clock icon" />Hours</p>
-  <p><strong>month1 - month2</strong><br></br>Monday - Friday<br></br>9:00 am - 5:00 pm</p>
-  <p><strong>month3 - month4</strong><br></br>Monday - Friday<br></br>9:00 am - 4:30 pm</p>
+  <p><strong>September - June</strong><br></br>Monday - Friday<br></br>9:00 am - 5:00 pm</p>
+  <p><strong>July - August</strong><br></br>Monday - Friday<br></br>9:00 am - 4:30 pm</p>
 </div>
 );
 
