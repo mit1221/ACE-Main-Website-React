@@ -1,0 +1,8 @@
+.card {
+  border: 1px solid #002A5C !important;
+  color: #002A5C !important;
+  padding: 20px;
+  text-align: center;
+  margin-top: 15px;
+  transition: background-color 0.3s ease-out, color 0.2s ease-out, transform 0.1s ease-in;
+}
