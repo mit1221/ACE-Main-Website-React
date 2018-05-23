@@ -6,6 +6,7 @@ import { Grid, Row } from 'react-bootstrap';
 import Footer from './Components/Footer/Footer';
 import Homepage from './Pages/Homepage/Homepage';
 import AboutUs from './Pages/AboutUs/AboutUs';
+import ContactUs from './Pages/ContactUs/ContactUs';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
           </Row>
           <Route path='/' exact component={Homepage}/>
           <Route path='/about' exact component={AboutUs}/>
-          <Route path='/contact' exact component={AboutUs}/>
+          <Route path='/contact' exact component={ContactUs}/>
           <Row>
             <Footer/>
           </Row>

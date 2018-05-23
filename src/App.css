@@ -19,6 +19,7 @@ h1 {
   font-weight: bold;
   font-size: 2em;
   margin-top: 0;
+  color: #535353;
 }
 
 h2 {
@@ -29,21 +30,23 @@ h2 {
 }
 
 section {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 :global .body {
-  padding: 0 40px;
+  padding: 0 10px;
 }
 
 @media (min-width: 768px) {
   :global .body {
+    padding: 0 30px;
     min-height: calc(100vh - 300px);
   }
 }
 
 :global @media (min-width: 1017px) {
   :global .body {
+    padding: 0 60px;
     min-height: calc(100vh - 230px);
   }
 }

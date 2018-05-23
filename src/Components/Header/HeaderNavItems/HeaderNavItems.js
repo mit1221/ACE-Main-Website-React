@@ -5,11 +5,11 @@ import NavDropdown from './NavDropdown/NavDropdown';
 import NavDropdownItem from './NavDropdown/NavDropdownItem/NavDropdownItem';
 
 const headerNavItems = props => (<ul className={classes.headerNavItems}>
-  <NavDropdown text='Services'>
+  {/* <NavDropdown text='Services'>
     <NavDropdownItem link='/weddings'>Service 1</NavDropdownItem>
     <NavDropdownItem link='/support'>Service 2</NavDropdownItem>
     <NavDropdownItem link='/room-res'>Service 3</NavDropdownItem>
-  </NavDropdown>
+  </NavDropdown> */}
   <NavItem link="/support">Tech Support</NavItem>
   <NavItem link="/room-res">Room Reservation</NavItem>
   <NavItem link="/weddings">Weddings</NavItem>

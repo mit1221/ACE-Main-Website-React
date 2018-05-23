@@ -1,34 +1,34 @@
 .contactInfoCard {
-	background-color: #CCCCCC;
-	padding: 15px;
-	margin: 15px 0px;
+  background-color: #CCCCCC;
+  padding: 15px;
+  max-width: 400px;
   color: #333;
 }
 
 .contactInfoCard p {
-	margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .subtitle {
-	text-transform: uppercase;
-	font-size: 1.2em;
-	padding: 5px 0px;
-	color: #002A5C;
-	border-bottom: 1px solid #a7a3a3;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: 5px 0px;
+  color: #002A5C;
+  border-bottom: 1px solid #a7a3a3;
   font-weight: bold;
 }
 
 .contactInfoCard p:first-child {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 .contactInfoCard p:last-child {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .contactInfoCard img {
-	height: 0.9em;
-	vertical-align: middle;
-	padding-right: 6px;
-	padding-bottom: 2px;
+  height: 0.9em;
+  vertical-align: middle;
+  padding-right: 6px;
+  padding-bottom: 2px;
 }

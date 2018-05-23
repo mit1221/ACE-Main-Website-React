@@ -1,1 +1,19 @@
+.majorSection {
+  border-bottom: 2px solid #CCCCCC;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
 
+.body {
+  padding: 0 30px;
+}
+
+@media (min-width: 768px) {
+  .body {
+    padding: 0 60px;
+  }
+}
+
+.majorSection a:visited {
+  color: #002A5C;
+}
