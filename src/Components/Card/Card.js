@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Card.css';
+import TagType from '../../TagType';
 
 const card = props => {
   let imageAndText = [];
@@ -19,11 +20,11 @@ const card = props => {
     imageAndText = [<p key={1} style={{marginTop: 0}} className={classes.cardText}>{props.text}</p>];
   }
 
-  return <a className={classes.cardLink} href={props.link}  target={props.newPage ? '_blank' : null}>
+  return <TagType link={props.link} newPage={props.newPage} class={classes.cardLink}>
       <div className={classes.card}>
         {imageAndText}
       </div>
-    </a>;
+    </TagType>;
 };
 
 export default card;

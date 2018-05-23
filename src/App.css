@@ -4,6 +4,7 @@
 
 :global a:visited {
   text-decoration: none;
+  color: white;
 }
 
 :global a:hover {
@@ -20,24 +21,29 @@ h1 {
   margin-top: 0;
 }
 
-.footer {
-  width: 100vw;
-  background-color: #002A5C;
-  z-index: 19;
-  text-align: center;
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #002A5C;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+:global .body {
+  padding: 0 40px;
 }
 
 @media (min-width: 768px) {
-  .footer {
-    padding: 25px 0;
-  }
-  .body {
-    min-height: calc(100vh - 220px);
+  :global .body {
+    min-height: calc(100vh - 300px);
   }
 }
 
-@media (min-width: 1017px) {
-  .body {
-    min-height: calc(100vh - 150px);
+:global @media (min-width: 1017px) {
+  :global .body {
+    min-height: calc(100vh - 230px);
   }
 }

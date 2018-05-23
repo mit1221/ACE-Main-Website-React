@@ -1,14 +1,13 @@
-
 .row {
-	transition: 0.2s;
+  transition: 0.2s;
 }
 
 .row:hover {
-	background-color: #a7a3a3;
+  background-color: #a7a3a3;
 }
 
 .row:active {
-	background-color: #938f8f;
+  background-color: #938f8f;
 }
 
 .row td {
@@ -16,13 +15,14 @@
 }
 
 .row td a {
-	display: block;
-	padding: 10px 0px;
-	color: #333;
+  display: block;
+  padding: 10px 0px;
+  color: #333;
 }
 
 .row td:first-child a {
-	text-transform: uppercase;
-	font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
   color: #002A5C;
+  padding-right: 20px;
 }

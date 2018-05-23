@@ -1,1 +1,13 @@
+.footer {
+  width: 100vw;
+  background-color: #002A5C;
+  z-index: 19;
+  text-align: center;
+  margin-top: 40px;
+}
 
+@media (min-width: 768px) {
+  .footer {
+    padding: 25px 0;
+  }
+}

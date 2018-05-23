@@ -1,8 +1,9 @@
 import React from 'react';
 import classes from './HLink.css';
+import TagType from '../../TagType';
 
 const hLink = props => (
-  <a href={props.link} target={props.newPage ? '_blank' : null} className={classes.hlink}>
+  <TagType link={props.link} newPage={props.newPage} class={classes.hlink}>
     <mark style={{
       color: props.color,
       fontSize: props.fontSize,
@@ -11,7 +12,7 @@ const hLink = props => (
     }}>
       {props.children} <span>&#10140;</span>
     </mark>
-  </a>
+  </TagType>
 );
 
 export default hLink;
