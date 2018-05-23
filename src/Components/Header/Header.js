@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import classes from './Header.css';
 import Logo from '../Logo/Logo';
 import HeaderNavItems from './HeaderNavItems/HeaderNavItems';
 
-const header = props => (<header>
+const header = props => (<header className={classes.header}>
   <Logo/>
   <nav>
     <HeaderNavItems/>

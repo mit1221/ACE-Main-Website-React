@@ -1,36 +1,41 @@
 .card {
   border: 1px solid #002A5C;
-	color: #002A5C;
-	padding: 20px;
-	text-align: center;
-	margin-top: 15px;
-	transition: background-color 0.3s ease-out, color 0.2s ease-out, transform 0.1s ease-in;
+  color: #002A5C;
+  padding: 20px;
+  text-align: center;
+  margin-top: 15px;
+  transition: background-color 0.3s ease-out, color 0.2s ease-out, transform 0.1s ease-in;
   cursor: pointer;
 }
 
 .cardLink:first-child .card {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 .card:hover {
-	background-color: #002A5C;
+  background-color: #002A5C;
   color: white;
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .cardText {
-	margin-bottom: 0px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.cardText:last-child {
+  margin-bottom: 0px;
 }
 
 .cardIcon {
-	height: 50px;
+  height: 50px;
 }
 
 .cardIcon svg g {
   fill: #002A5C;
-	transition: 0.1s;
+  transition: 0.1s;
 }
 
 .cardIcon:hover svg g {
-	fill: white;
+  fill: white;
 }

@@ -1,0 +1,9 @@
+.navItem a {
+  display: block;
+  color: #bccbde;
+  padding: 25px 25px;
+}
+
+.navItem a:hover {
+  text-decoration: underline;
+}

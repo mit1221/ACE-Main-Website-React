@@ -3,7 +3,7 @@
   padding-left: 0;
 }
 
-.hlink:hover mark {
+.hlink mark:hover {
   background-color: #a7a3a3 !important;
   transition: 0.2s;
 }
@@ -12,6 +12,6 @@
   transition: 0.2s;
 }
 
-.hlink:hover span {
+.hlink mark:hover span {
   margin-left: 3px;
 }
