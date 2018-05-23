@@ -1,9 +1,16 @@
 .navItem a {
   display: block;
   color: #bccbde;
-  padding: 25px 25px;
+  background-color: #002A5C;
+  padding: 15px 0;
 }
 
 .navItem a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .navItem a {
+    padding: 0 25px;
+  }
 }

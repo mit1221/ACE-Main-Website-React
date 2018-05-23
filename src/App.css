@@ -22,4 +22,22 @@ h1 {
 
 .footer {
   width: 100vw;
+  background-color: #002A5C;
+  z-index: 19;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 25px 0;
+  }
+  .body {
+    min-height: calc(100vh - 220px);
+  }
+}
+
+@media (min-width: 1017px) {
+  .body {
+    min-height: calc(100vh - 150px);
+  }
 }
